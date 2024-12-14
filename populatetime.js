@@ -1,3 +1,4 @@
+<script>
 const memberstack = window.$memberstackDom;
 
 memberstack.getCurrentMember().then(({ data: member }) => {
@@ -67,3 +68,4 @@ function formatTime(time) {
     }
     return ''; // Si l'heure est '0', renvoyer une chaîne vide
 }
+</script>
