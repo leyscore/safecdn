@@ -1,4 +1,3 @@
-<script>
 document.addEventListener('DOMContentLoaded', function() {
   const form = document.getElementById('wf-form-Profile-form');
 
@@ -87,4 +86,3 @@ document.addEventListener('DOMContentLoaded', function() {
     updateMemberJson();
   });
 });
-</script>
