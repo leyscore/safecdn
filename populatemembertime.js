@@ -1,4 +1,3 @@
-<script>
 const memberstack = window.$memberstackDom;
 
 memberstack.getCurrentMember().then(({ data: member }) => {
@@ -68,9 +67,7 @@ function formatTime(time) {
     }
     return ''; // Si l'heure est '0', renvoyer une chaîne vide
 }
-</script>
 
-<script>
 document.getElementById('wf-form-Google-maps-link-form').addEventListener('submit', function (event) {
   event.preventDefault(); // Empêche la soumission normale du formulaire
 
@@ -109,4 +106,3 @@ document.getElementById('wf-form-Google-maps-link-form').addEventListener('submi
 
   }, 30000); // Le loader tourne pendant 30 secondes
 });
-</script>
